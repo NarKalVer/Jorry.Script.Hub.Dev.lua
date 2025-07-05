@@ -18,7 +18,9 @@ local B = function(tab, name, url)
       Name = name,
       Callback = function()
          if url then
-            if name == "⚡ Load Zeke Hub" then
+            if name:find("Biggie Hub") then
+               script_key = "xGTmIVKkCYdPodlvsIaEDofzzcUNomIX"
+            elseif name == "⚡ Load Zeke Hub" then
                script_key = "rZeBfsRlkEPekPbEBAlejAuKBeaztjSX"
             end
             loadstring(game:HttpGet(url))()
