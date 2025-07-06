@@ -6,7 +6,7 @@ local function B(channel, name, url)
       loadstring(game:HttpGet(url))()
    end)
 end
-local T1 = win:Server("Main Tab. 📦 Script Hubs", "")
+local T1 = win:Server("M. 📦 Script Hubs", "")
 local H1 = T1:Channel("📁 Main Hubs")
 for _, v in ipairs({
    {"💨 VapeV4 (Bedwars)", "https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"},
@@ -25,7 +25,7 @@ for _, v in ipairs({
    {"🤖 Auto Rob", "http://scripts.projectauto.xyz/AutoRobV6"},
    {"👮 Auto Arrest", "http://scripts.projectauto.xyz/AutoArrestV3"}
 }) do B(H2, v[1], v[2]) end
-local T2 = win:Server("Zeke Hub. 🧠 Zeke Hub", "")
+local T2 = win:Server("Z. 🧠 Zeke Hub", "")
 local Z1 = T2:Channel("💻 Script")
 Z1:Button("⚡ Load Zeke Hub", function()
    DiscordLib:Notification("✅ Loaded", "Zeke Hub loaded!", "OK")
@@ -42,12 +42,12 @@ for _, name in ipairs({
    "☠️ Forsaken","👹 GHOUL://RE","🌌 Arise Crossover","🫧 Bubble Gum Simulator INFINITY",
    "🐎 The Wild West","🌱 Grow A Garden","⚔️ ZO SAMURAI SWORD FIGHTING","🌐 Universal Script"
 }) do Z2:Button(name, function() end) end
-local T3 = win:Server("Admin Hubs. 🛠️ Admin Hubs", "")
+local T3 = win:Server("A. 🛠️ Admin Hubs", "")
 local A1 = T3:Channel("🧰 Side Exploit Hubs")
 B(A1, "📟 Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
 B(A1, "📟 Nameless admin", "https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source")
 B(A1, "📟 Dark Dex Explorer", "https://raw.githubusercontent.com/infyiff/backup/main/dex.lua")
-local T4 = win:Server("Self Destruct. 💥 Self-Destruct", "")
+local T4 = win:Server("S. 💥 Self-Destruct", "")
 local S1 = T4:Channel("🧨 DANGER ZONE")
 S1:Button("💣 Self-Destruct Script", function()
    DiscordLib:Notification("☠️ Destroyed", "GUI will now close.", "Bye")
