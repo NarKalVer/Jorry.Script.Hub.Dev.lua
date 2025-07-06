@@ -22,8 +22,8 @@ for _, v in ipairs({
 }) do B(H1, v[1], v[2]) end
 local H2 = T1:Channel("🚓 ProjectAuto (Jailbreak)")
 for _, v in ipairs({
-   {"🤖 Auto Rob", "http://scripts.projectauto.xyz/AutoRobV6"},
-   {"👮 Auto Arrest", "http://scripts.projectauto.xyz/AutoArrestV3"}
+   {"💰 Auto Rob[FREE]", "http://scripts.projectauto.xyz/AutoRobV6"},
+   {"👮 Auto Arrest[FREE]", "http://scripts.projectauto.xyz/AutoArrestV3"}
 }) do B(H2, v[1], v[2]) end
 local T2 = win:Server("Z. 🧠 Zeke Hub", "")
 local Z1 = T2:Channel("💻 Script")
