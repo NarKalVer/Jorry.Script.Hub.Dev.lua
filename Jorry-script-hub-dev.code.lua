@@ -1,11 +1,13 @@
 local DiscordLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt"))()
 local win = DiscordLib:Window("Jorry's Script Hub Dev")
+
 local function B(channel, name, url)
    channel:Button(name, function()
       DiscordLib:Notification("✅ Loaded", "Script loaded successfully!", "OK")
       loadstring(game:HttpGet(url))()
    end)
 end
+
 local T1 = win:Server("M. 📦 Script Hubs", "")
 local H1 = T1:Channel("📁 Main Hubs")
 for _, v in ipairs({
@@ -15,16 +17,19 @@ for _, v in ipairs({
    {"💀 Skull Hub (Dead Rails)", "https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua"},
    {"⚡ Z3US (Shooter Games)", "https://raw.githubusercontent.com/blackowl1231/ZYPHERION/refs/heads/main/main.lua"},
    {"🚪 Vynixius (Doors)", "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"},
+   {"👑 King Hub (Doors)", "https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"},
    {"🏡 MeowBurg [PAID] (Bloxburg)", "https://api.luarmor.net/files/v3/loaders/e650add142549fa34f5127d3e1f5c539.lua"},
    {"🐷 Vynixu (Piggy)", "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua"},
    {"🐝 Preppy Hub (Spelling Bee)", "https://raw.githubusercontent.com/PreppyHub/PreppyHub/refs/heads/main/PreppyHub"},
    {"💸 ssze AutoFarm (Please Donate)", "https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"}
 }) do B(H1, v[1], v[2]) end
+
 local H2 = T1:Channel("🚓 ProjectAuto (Jailbreak)")
 for _, v in ipairs({
    {"💰 Auto Rob[FREE]", "http://scripts.projectauto.xyz/AutoRobV6"},
    {"👮 Auto Arrest[FREE]", "http://scripts.projectauto.xyz/AutoArrestV3"}
 }) do B(H2, v[1], v[2]) end
+
 local T2 = win:Server("Z. 🧠 Zeke Hub", "")
 local Z1 = T2:Channel("💻 Script")
 Z1:Button("⚡ Load Zeke Hub", function()
@@ -32,6 +37,7 @@ Z1:Button("⚡ Load Zeke Hub", function()
    script_key = "rZeBfsRlkEPekPbEBAlejAuKBeaztjSX"
    loadstring(game:HttpGet("https://zekehub.com/scripts/Loader.lua"))()
 end)
+
 local Z2 = T2:Channel("🎮 Supported Games")
 for _, name in ipairs({
    "🏀 Basketball Legends","🥊 Untitled Boxing Game","🔫 Phantom Forces","⚔️ Attack on Titan Revolution",
@@ -42,11 +48,13 @@ for _, name in ipairs({
    "☠️ Forsaken","👹 GHOUL://RE","🌌 Arise Crossover","🫧 Bubble Gum Simulator INFINITY",
    "🐎 The Wild West","🌱 Grow A Garden","⚔️ ZO SAMURAI SWORD FIGHTING","🌐 Universal Script"
 }) do Z2:Button(name, function() end) end
+
 local T3 = win:Server("A. 🛠️ Admin Hubs", "")
 local A1 = T3:Channel("🧰 Side Exploit Hubs")
 B(A1, "📟 Infinite Yield", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
 B(A1, "📟 Nameless admin", "https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source")
 B(A1, "📟 Dark Dex Explorer", "https://raw.githubusercontent.com/infyiff/backup/main/dex.lua")
+
 local T4 = win:Server("S. 💥 Self-Destruct", "")
 local S1 = T4:Channel("🧨 DANGER ZONE")
 S1:Button("💣 Self-Destruct Script", function()
