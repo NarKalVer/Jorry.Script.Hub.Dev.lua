@@ -31,7 +31,7 @@ for _, v in ipairs({
    {"💸 ssze AutoFarm (Please Donate)", "https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"}
 }) do
    if v[3] then
-      local key = v[1]:find("Biggie") and "b497ad9cd94af9a2c4c41b0d4952dde7" or
+      local key = v[1]:find("Biggie") and "xGTmIVKkCYdPodlvsIaEDofzzcUNomIX" or
                   v[1]:find("Hydra") and "kkecciUfTkAIkvQwdYJvmAAoFwGgTXzG"
       B(H1, v[1], v[2], function()
          getgenv().script_key = key
