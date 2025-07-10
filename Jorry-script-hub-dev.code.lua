@@ -46,7 +46,7 @@ end
 local H2 = T1:Channel("🚓 ProjectAuto (Jailbreak)")
 for _, v in ipairs({
    {"💰 Auto Rob[FREE]", "http://scripts.projectauto.xyz/AutoRobV6"},
-   {"👮 Auto Arrest[FREE]", "http://scripts.projectauto.xyz/AutoArrestV3"}
+   {"👮 Auto Arrest[FREE]", "http://scripts.projectauto.xyz/AutoArrestV4"}
 }) do B(H2, v[1], v[2]) end
 
 -- Zeke Hub
