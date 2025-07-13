@@ -32,7 +32,7 @@ for _, v in ipairs({
 }) do
    if v[3] then
       local key = v[1]:find("Biggie") and "xGTmIVKkCYdPodlvsIaEDofzzcUNomIX" or
-                  v[1]:find("Hydra") and "kkecciUfTkAIkvQwdYJvmAAoFwGgTXzG"
+                  v[1]:find("Hydra") and "kkecciUfTkAIkvQwdYJvmAAoFwGgTXzG" or
                   v[1]:find("Meowburg") and "CwmmsdZeiEUYjmmlIqJjhNpjDSnBzesb"
       B(H1, v[1], v[2], function()
          getgenv().script_key = key
