@@ -20,7 +20,7 @@ for _, v in ipairs({
    {"💨 VapeV4 (Bedwars)", "https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua"},
    {"🌌 Voidware (Bedwars)", "https://raw.githubusercontent.com/VapeVoidware/VWRewrite/main/NewMainScript.lua"},
    {"🔑 Biggie Hub [PAID] (RF24)", "https://api.luarmor.net/files/v3/loaders/b497ad9cd94af9a2c4c41b0d4952dde7.lua", true},
-   {"🧪 Hydra (RF24) [PAID]", "https://api.luarmor.net/files/v3/loaders/97c62d31c08bec743fe15ce1a3608228.lua", true},
+   {"🧪 Hydra (RF24) [PAID]", "https://api.luarmor.net/files/v3/loaders/369406e51d603c3643c9628983279c6c.lua", true},
    {"💀 Skull Hub (Dead Rails)", "https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua"},
    {"⚡ Z3US (Shooter Games)", "https://raw.githubusercontent.com/blackowl1231/ZYPHERION/refs/heads/main/main.lua"},
    {"🚪 Vynixius (Doors)", "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"},
