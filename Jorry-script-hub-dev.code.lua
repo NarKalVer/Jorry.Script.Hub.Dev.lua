@@ -23,10 +23,9 @@ for _, v in ipairs({
    {"🧪 Hydra (RF24) [PAID]", "https://api.luarmor.net/files/v3/loaders/369406e51d603c3643c9628983279c6c.lua", true},
    {"💀 Skull Hub (Dead Rails)", "https://raw.githubusercontent.com/hungquan99/SkullHub/main/loader.lua"},
    {"⚡ Z3US (Shooter Games)", "https://raw.githubusercontent.com/blackowl1231/ZYPHERION/refs/heads/main/main.lua"},
-   {"🚪 Vynixius (Doors)", "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"},
-   {"👑 King Hub (Doors)", "https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"},
+   {"🚪🐷  Vynixius (Doors)", "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"},
+   {"👑 King Hub (Doors,Piggy)", "https://raw.githubusercontent.com/KINGHUB01/BlackKing-obf/main/Doors%20Blackking%20And%20BobHub"},
    {"🏡 MeowBurg [PAID] (Bloxburg)", "https://api.luarmor.net/files/v3/loaders/e650add142549fa34f5127d3e1f5c539.lua"},
-   {"🐷 Vynixu (Piggy)", "https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Loader.lua"},
    {"🐝 Preppy Hub (Spelling Bee)", "https://raw.githubusercontent.com/PreppyHub/PreppyHub/refs/heads/main/PreppyHub"},
    {"💸 ssze AutoFarm (Please Donate)", "https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua"}
 }) do
